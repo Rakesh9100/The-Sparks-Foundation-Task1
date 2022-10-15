@@ -1,0 +1,113 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar css starts */
+.bg-light{
+    background-color: #7d4b47!important;
+}
+
+.navbar-brand{
+    font-family: 'Algerian';
+    font-size: 1.5rem;
+    color: #ffff30!important;
+}
+
+.nav-link{
+    color: #ffff30!important;
+}
+
+.nav-link:hover{
+    background-color: #fe2020;
+    transition: 0.5s ease;
+}
+/* navbar css ends */
+
+/* content css starts */
+.hero-content{
+    height: 100vh;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 73vh;
+    width: 100%;
+}
+
+.col-md-6 h1 {
+    color: yellow;
+    font-weight: 600;
+}
+
+span {
+    font-size: 25px;
+    font-family: 'Algerian';
+}
+
+.welcome {
+    font-size: 32px;
+    color: yellow;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color: #e50e03!important;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #f5eb5f;
+    
+}
+
+/* get-started-buttons css starts */
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end */
